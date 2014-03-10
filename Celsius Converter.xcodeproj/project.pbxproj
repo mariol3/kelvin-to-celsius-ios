@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF4C5E818CE81DA00C01EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C5E718CE81DA00C01EFA /* Foundation.framework */; };
+		ACF4C5EA18CE81DA00C01EFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C5E918CE81DA00C01EFA /* CoreGraphics.framework */; };
+		ACF4C5EC18CE81DA00C01EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C5EB18CE81DA00C01EFA /* UIKit.framework */; };
+		ACF4C5F218CE81DA00C01EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACF4C5F018CE81DA00C01EFA /* InfoPlist.strings */; };
+		ACF4C5F418CE81DA00C01EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4C5F318CE81DA00C01EFA /* main.m */; };
+		ACF4C5F818CE81DA00C01EFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4C5F718CE81DA00C01EFA /* AppDelegate.m */; };
+		ACF4C5FB18CE81DA00C01EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF4C5F918CE81DA00C01EFA /* Main.storyboard */; };
+		ACF4C5FE18CE81DA00C01EFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4C5FD18CE81DA00C01EFA /* ViewController.m */; };
+		ACF4C60018CE81DA00C01EFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF4C5FF18CE81DA00C01EFA /* Images.xcassets */; };
+		ACF4C60718CE81DA00C01EFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C60618CE81DA00C01EFA /* XCTest.framework */; };
+		ACF4C60818CE81DA00C01EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C5E718CE81DA00C01EFA /* Foundation.framework */; };
+		ACF4C60918CE81DA00C01EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4C5EB18CE81DA00C01EFA /* UIKit.framework */; };
+		ACF4C61118CE81DA00C01EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACF4C60F18CE81DA00C01EFA /* InfoPlist.strings */; };
+		ACF4C61318CE81DA00C01EFA /* Celsius_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4C61218CE81DA00C01EFA /* Celsius_ConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF4C60A18CE81DA00C01EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF4C5DC18CE81DA00C01EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF4C5E318CE81DA00C01EFA;
+			remoteInfo = "Celsius Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF4C5E418CE81DA00C01EFA /* Celsius Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Celsius Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4C5E718CE81DA00C01EFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACF4C5E918CE81DA00C01EFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACF4C5EB18CE81DA00C01EFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACF4C5EF18CE81DA00C01EFA /* Celsius Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Celsius Converter-Info.plist"; sourceTree = "<group>"; };
+		ACF4C5F118CE81DA00C01EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACF4C5F318CE81DA00C01EFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACF4C5F518CE81DA00C01EFA /* Celsius Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Celsius Converter-Prefix.pch"; sourceTree = "<group>"; };
+		ACF4C5F618CE81DA00C01EFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACF4C5F718CE81DA00C01EFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACF4C5FA18CE81DA00C01EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF4C5FC18CE81DA00C01EFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACF4C5FD18CE81DA00C01EFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACF4C5FF18CE81DA00C01EFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACF4C60518CE81DA00C01EFA /* Celsius ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Celsius ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4C60618CE81DA00C01EFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACF4C60E18CE81DA00C01EFA /* Celsius ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Celsius ConverterTests-Info.plist"; sourceTree = "<group>"; };
+		ACF4C61018CE81DA00C01EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACF4C61218CE81DA00C01EFA /* Celsius_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Celsius_ConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF4C5E118CE81DA00C01EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C5EA18CE81DA00C01EFA /* CoreGraphics.framework in Frameworks */,
+				ACF4C5EC18CE81DA00C01EFA /* UIKit.framework in Frameworks */,
+				ACF4C5E818CE81DA00C01EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4C60218CE81DA00C01EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C60718CE81DA00C01EFA /* XCTest.framework in Frameworks */,
+				ACF4C60918CE81DA00C01EFA /* UIKit.framework in Frameworks */,
+				ACF4C60818CE81DA00C01EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF4C5DB18CE81DA00C01EFA = {
+			isa = PBXGroup;
+			children = (
+				ACF4C5ED18CE81DA00C01EFA /* Celsius Converter */,
+				ACF4C60C18CE81DA00C01EFA /* Celsius ConverterTests */,
+				ACF4C5E618CE81DA00C01EFA /* Frameworks */,
+				ACF4C5E518CE81DA00C01EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF4C5E518CE81DA00C01EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C5E418CE81DA00C01EFA /* Celsius Converter.app */,
+				ACF4C60518CE81DA00C01EFA /* Celsius ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF4C5E618CE81DA00C01EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C5E718CE81DA00C01EFA /* Foundation.framework */,
+				ACF4C5E918CE81DA00C01EFA /* CoreGraphics.framework */,
+				ACF4C5EB18CE81DA00C01EFA /* UIKit.framework */,
+				ACF4C60618CE81DA00C01EFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACF4C5ED18CE81DA00C01EFA /* Celsius Converter */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C5F618CE81DA00C01EFA /* AppDelegate.h */,
+				ACF4C5F718CE81DA00C01EFA /* AppDelegate.m */,
+				ACF4C5F918CE81DA00C01EFA /* Main.storyboard */,
+				ACF4C5FC18CE81DA00C01EFA /* ViewController.h */,
+				ACF4C5FD18CE81DA00C01EFA /* ViewController.m */,
+				ACF4C5FF18CE81DA00C01EFA /* Images.xcassets */,
+				ACF4C5EE18CE81DA00C01EFA /* Supporting Files */,
+			);
+			path = "Celsius Converter";
+			sourceTree = "<group>";
+		};
+		ACF4C5EE18CE81DA00C01EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C5EF18CE81DA00C01EFA /* Celsius Converter-Info.plist */,
+				ACF4C5F018CE81DA00C01EFA /* InfoPlist.strings */,
+				ACF4C5F318CE81DA00C01EFA /* main.m */,
+				ACF4C5F518CE81DA00C01EFA /* Celsius Converter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACF4C60C18CE81DA00C01EFA /* Celsius ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C61218CE81DA00C01EFA /* Celsius_ConverterTests.m */,
+				ACF4C60D18CE81DA00C01EFA /* Supporting Files */,
+			);
+			path = "Celsius ConverterTests";
+			sourceTree = "<group>";
+		};
+		ACF4C60D18CE81DA00C01EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C60E18CE81DA00C01EFA /* Celsius ConverterTests-Info.plist */,
+				ACF4C60F18CE81DA00C01EFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF4C5E318CE81DA00C01EFA /* Celsius Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF4C61618CE81DA00C01EFA /* Build configuration list for PBXNativeTarget "Celsius Converter" */;
+			buildPhases = (
+				ACF4C5E018CE81DA00C01EFA /* Sources */,
+				ACF4C5E118CE81DA00C01EFA /* Frameworks */,
+				ACF4C5E218CE81DA00C01EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Celsius Converter";
+			productName = "Celsius Converter";
+			productReference = ACF4C5E418CE81DA00C01EFA /* Celsius Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF4C60418CE81DA00C01EFA /* Celsius ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF4C61918CE81DA00C01EFA /* Build configuration list for PBXNativeTarget "Celsius ConverterTests" */;
+			buildPhases = (
+				ACF4C60118CE81DA00C01EFA /* Sources */,
+				ACF4C60218CE81DA00C01EFA /* Frameworks */,
+				ACF4C60318CE81DA00C01EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF4C60B18CE81DA00C01EFA /* PBXTargetDependency */,
+			);
+			name = "Celsius ConverterTests";
+			productName = "Celsius ConverterTests";
+			productReference = ACF4C60518CE81DA00C01EFA /* Celsius ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF4C5DC18CE81DA00C01EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mario;
+				TargetAttributes = {
+					ACF4C60418CE81DA00C01EFA = {
+						TestTargetID = ACF4C5E318CE81DA00C01EFA;
+					};
+				};
+			};
+			buildConfigurationList = ACF4C5DF18CE81DA00C01EFA /* Build configuration list for PBXProject "Celsius Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF4C5DB18CE81DA00C01EFA;
+			productRefGroup = ACF4C5E518CE81DA00C01EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF4C5E318CE81DA00C01EFA /* Celsius Converter */,
+				ACF4C60418CE81DA00C01EFA /* Celsius ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF4C5E218CE81DA00C01EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C60018CE81DA00C01EFA /* Images.xcassets in Resources */,
+				ACF4C5F218CE81DA00C01EFA /* InfoPlist.strings in Resources */,
+				ACF4C5FB18CE81DA00C01EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4C60318CE81DA00C01EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C61118CE81DA00C01EFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF4C5E018CE81DA00C01EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C5FE18CE81DA00C01EFA /* ViewController.m in Sources */,
+				ACF4C5F818CE81DA00C01EFA /* AppDelegate.m in Sources */,
+				ACF4C5F418CE81DA00C01EFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4C60118CE81DA00C01EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4C61318CE81DA00C01EFA /* Celsius_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF4C60B18CE81DA00C01EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF4C5E318CE81DA00C01EFA /* Celsius Converter */;
+			targetProxy = ACF4C60A18CE81DA00C01EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF4C5F018CE81DA00C01EFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF4C5F118CE81DA00C01EFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACF4C5F918CE81DA00C01EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF4C5FA18CE81DA00C01EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF4C60F18CE81DA00C01EFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF4C61018CE81DA00C01EFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF4C61418CE81DA00C01EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACF4C61518CE81DA00C01EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF4C61718CE81DA00C01EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celsius Converter/Celsius Converter-Prefix.pch";
+				INFOPLIST_FILE = "Celsius Converter/Celsius Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACF4C61818CE81DA00C01EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celsius Converter/Celsius Converter-Prefix.pch";
+				INFOPLIST_FILE = "Celsius Converter/Celsius Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACF4C61A18CE81DA00C01EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Celsius Converter.app/Celsius Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celsius Converter/Celsius Converter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Celsius ConverterTests/Celsius ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACF4C61B18CE81DA00C01EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Celsius Converter.app/Celsius Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celsius Converter/Celsius Converter-Prefix.pch";
+				INFOPLIST_FILE = "Celsius ConverterTests/Celsius ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF4C5DF18CE81DA00C01EFA /* Build configuration list for PBXProject "Celsius Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4C61418CE81DA00C01EFA /* Debug */,
+				ACF4C61518CE81DA00C01EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF4C61618CE81DA00C01EFA /* Build configuration list for PBXNativeTarget "Celsius Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4C61718CE81DA00C01EFA /* Debug */,
+				ACF4C61818CE81DA00C01EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF4C61918CE81DA00C01EFA /* Build configuration list for PBXNativeTarget "Celsius ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4C61A18CE81DA00C01EFA /* Debug */,
+				ACF4C61B18CE81DA00C01EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF4C5DC18CE81DA00C01EFA /* Project object */;
+}
