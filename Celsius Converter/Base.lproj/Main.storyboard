@@ -39,11 +39,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8v-F0-3g9">
+                                <rect key="frame" x="0.0" y="387" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="history" id="h0a-1J-ZLg"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="NWY-KI-17D" id="ou1-OQ-ech"/>
+                        <outlet property="tabBar" destination="k8v-F0-3g9" id="7v7-oA-RA9"/>
                         <outlet property="temperatureTextField" destination="SwP-xf-Gd9" id="IJX-Ml-g4a"/>
                     </connections>
                 </viewController>

@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.tabBar.delegate = self;
     _temperatureTextField.delegate = self; // for keyboard dismiss
 }
 
@@ -95,6 +95,17 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
+}
+
+
+#pragma mark Tab bar events
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+    if (item.tag == 0) { // history
+        NSLog(@"touched history");
+        // TODO - show history view ;)
+    }
 }
 
 @end

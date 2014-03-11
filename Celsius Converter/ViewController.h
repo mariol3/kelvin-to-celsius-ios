@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITextFieldDelegate, UIAlertViewDelegate>
+@interface ViewController : UIViewController<UITextFieldDelegate, UIAlertViewDelegate, UITabBarDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *temperatureTextField;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (weak, nonatomic) IBOutlet UITabBar *tabBar;
 - (IBAction)convertTemperature;
-
 @end
